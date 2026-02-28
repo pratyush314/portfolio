@@ -34,12 +34,12 @@ const Contact = () => {
         "template_17us8im",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Pratyush",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "pratyushshah314@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "pn-Bw_mS1_QQdofuV",
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });

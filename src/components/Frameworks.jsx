@@ -1,14 +1,14 @@
+/* eslint-disable react/prop-types */
 import { OrbitingCircles } from "./OrbitingCircles";
 
 export function Frameworks() {
   const skills = [
     "auth0",
     "blazor",
+    "java",
+    "python",
     "cplusplus",
-    "csharp",
     "css3",
-    "dotnet",
-    "dotnetcore",
     "git",
     "html5",
     "javascript",
@@ -17,7 +17,7 @@ export function Frameworks() {
     "sqlite",
     "tailwindcss",
     "vitejs",
-    "wordpress",
+    "ai",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">

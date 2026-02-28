@@ -48,6 +48,28 @@ const Navbar = () => {
               alt="toggle"
             />
           </button>
+          <div className="flex flex-row gap-5 font-bold text-xl text-gray-400">
+            <div className="flex items-center gap-2 hover:brightness-150">
+              <a target="_blank" href="https://github.com/pratyush314">
+                Github
+              </a>
+              <img
+                src="/assets/logos/github.svg"
+                alt="github"
+                className="w-7 h-7 bg-white rounded-2xl"
+              />
+            </div>
+            <div className="flex items-center gap-2 hover:brightness-150">
+              <a target="_blank" href="https://leetcode.com/u/pratyushshah314">
+                Leetcode
+              </a>
+              <img
+                src="/assets/logos/leetcode.svg"
+                alt="leetcode"
+                className="w-7 h-7 bg-yellow-400 rounded-lg"
+              />
+            </div>
+          </div>
           <nav className="hidden sm:flex">
             <Navigation />
           </nav>
